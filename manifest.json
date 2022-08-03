@@ -1,0 +1,17 @@
+{
+    "name": "HydrateUp",
+    "description": "Reminds you to stay hydrated even as you work away",
+    "version": "1.0",
+    "manifest_version": 3,
+    "background": {
+        "service_worker": "background.js"
+    },
+    "permissions": [
+        "notifications",
+        "storage",
+        "alarms"
+    ],
+    "action": {
+        "default_popup": "popup.html"
+    }
+}
